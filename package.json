@@ -19,7 +19,6 @@
   "homepage": "https://github.com/kamal-kamal/secondsample#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "jasmine-node": "^1.16.2",
-    "nodemon": "^1.18.10"
+    "jasmine-node": "^1.16.2"
   }
 }
