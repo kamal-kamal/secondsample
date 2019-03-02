@@ -1,0 +1,23 @@
+pipeline {
+  agent any
+
+
+  stages('check version') {
+    steps {
+      npm --version
+    }
+  }
+
+  stages('build') {
+    steps {
+      npm install
+    }
+  }
+
+  stages('run project') {
+    steps {
+      npm start
+    }
+  }
+
+}
