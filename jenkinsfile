@@ -1,22 +1,21 @@
 pipeline {
   agent any
 
-
-  stages('check version') {
-    steps {
-      npm --version
+  stages {
+    stage('check the version ') {
+      steps {
+        npm --version
+      }
     }
-  }
-
-  stages('build') {
-    steps {
-      npm install
+    stage('install dependencies') {
+      steps {
+        npm install
+      }
     }
-  }
-
-  stages('run project') {
-    steps {
-      npm start
+    stage('run project ') {
+      steps {
+        npm run start
+      }
     }
   }
 
