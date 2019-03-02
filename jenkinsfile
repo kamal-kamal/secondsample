@@ -4,17 +4,17 @@ pipeline {
   stages {
     stage('check the version ') {
       steps {
-        npm --version
+        sh 'npm --version'
       }
     }
     stage('install dependencies') {
       steps {
-        npm install
+        sh 'npm install'
       }
     }
     stage('run project ') {
       steps {
-        npm run start
+        sh 'npm run start'
       }
     }
   }
