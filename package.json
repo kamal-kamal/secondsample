@@ -1,0 +1,25 @@
+{
+  "name": "secondsample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node ./components",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamal-kamal/secondsample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamal-kamal/secondsample/issues"
+  },
+  "homepage": "https://github.com/kamal-kamal/secondsample#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jasmine-node": "^1.16.2",
+    "nodemon": "^1.18.10"
+  }
+}
